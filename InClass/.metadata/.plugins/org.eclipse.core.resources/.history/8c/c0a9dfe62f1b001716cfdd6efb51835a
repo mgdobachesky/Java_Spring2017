@@ -1,0 +1,62 @@
+import java.util.Scanner;
+
+public class RockPaperScissor {
+	
+	public static void main(String[] args) {
+		// initialize variables
+		String choice = "";
+		String computerChoice = "";
+		int choiceInt = -1;
+		int computerChoiceInt = (int)(Math.random() * 3);
+		
+		// define an object to input data
+		Scanner keyboard = new Scanner(System.in);
+		
+		// prompt user for input
+		System.out.println("Please enter \"scissor\" \"rock\" or \"paper\" : ");
+		// get input and store in variable
+		choice = keyboard.nextLine();
+		
+		// convert choice to a number
+		switch(choice.toLowerCase()) {
+			case "rock":
+				choiceInt = 0;
+				break;
+			case "paper":
+				choiceInt = 1;
+				break;
+			case "scissor":
+				choiceInt = 2;
+				break;
+			default:
+				break;
+		}
+		
+		// figure out what that choice is in english
+		switch(computerChoiceInt) {
+		case 0:
+			 computerChoice = "rock";
+			break;
+		case 1:
+			computerChoice = "paper";
+			break;
+		case 2:
+			computerChoice = "scissors";
+			break;
+		default:
+			System.out.println("Invalid choice");
+			System.exit(0);
+			break;
+		}
+		
+		// if computer wins, else if computer loses
+		if(computerChoiceInt - choiceInt == -2 || computerChoiceInt - choiceInt == 1) {
+			System.out.printf("Computer is %s you are %s you lose!", computerChoice, choice);
+		} else if (computerChoiceInt - choiceInt == -1 || computerChoiceInt - choiceInt == 0) {
+			System.out.printf("Computer is %s you are %s you win!", computerChoice, choice);
+		}
+		
+		// close Scanner object
+		keyboard.close();
+	}
+}

@@ -1,0 +1,22 @@
+
+public class RandomPlateNumber {
+	public static void main(String[] args) {
+		// declare variables
+		int randomStart = (int)'A';
+		int randomEnd = (int)'Z';
+		int randomNumber = (int)(Math.random() * 10000);
+		StringBuffer plateNumber = new StringBuffer();
+		
+		int test = (int)((Math.random() * randomEnd) + randomStart);
+		// append letters to license plate
+		plateNumber.append((char)(Math.random() * randomEnd + randomStart));
+		plateNumber.append((char)(Math.random() * randomEnd + randomStart));
+		plateNumber.append((char)(Math.random() * randomEnd + randomStart));
+		
+		// append number portion to plate
+		plateNumber.append(randomNumber);
+		
+		// output plate number
+		System.out.printf("A random vehicle plate number: %s", plateNumber);
+	}
+}
