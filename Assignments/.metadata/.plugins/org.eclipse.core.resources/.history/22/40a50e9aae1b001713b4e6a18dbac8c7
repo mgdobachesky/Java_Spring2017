@@ -1,0 +1,74 @@
+import java.util.*;
+public class Lab2a {
+
+	public static void main(String[] args) {
+		// define a scanner object for input
+		Scanner keyboard = new Scanner(System.in);
+		
+		// initialize variables
+		int age = 0;
+		int height = 0;
+		int weight = 0;
+		String sex = "";
+		String activityLevel = "";
+		String catchNewLine = "";
+		float result = 0;
+		
+		// output description of program
+		System.out.println("This program will calculate the number of 230 calorie");
+		System.out.println("candy bars to eat to maintain your weight.");
+		
+		// prompt for age and store in variable
+		System.out.println("What is your age in years?");
+		age = keyboard.nextInt();
+		
+		// prompt for height and store in variable
+		System.out.println("What is your total height in inches?");
+		height = keyboard.nextInt();
+		
+		// prompt for weight and store in variable
+		System.out.println("What is your weight in pounds?");
+		weight = keyboard.nextInt();
+		catchNewLine = keyboard.nextLine();
+		
+		// prompt for sex and store in variable
+		do {
+			System.out.println("Enter 'M' for male calculation or 'F' for female calculation.");
+			sex = keyboard.nextLine();
+		} while(sex.toUpperCase() != "M" && sex.toUpperCase() != "F");
+		
+		// prompt for activity level and store in variable
+		do {
+			System.out.println("Are you:");
+			System.out.println("A. Sedentary");
+			System.out.println("B. Somwhat active (exercise occasionally)");
+			System.out.println("C. Active (exercise 3-4 days per week)");
+			System.out.println("D. Highly active (exercise every day)");
+			System.out.println("Enter A,B,C, or D.");
+			activityLevel = keyboard.nextLine();
+		} while(activityLevel.toUpperCase() != "A" && activityLevel.toUpperCase() != "B" && activityLevel.toUpperCase() != "C" && activityLevel.toUpperCase() != "D");
+		
+		// calculate the result for gender without involving activity level
+		if(sex == "M") {
+			result = (float)(655 + (4.3 * weight) + (4.7 * height) - (4.7 * age));
+		} else if(sex == "F") {
+			result = (float)(66 + (6.3 * weight) + (12.9 * height) - (6.8 * age));
+		}
+		
+		switch(activityLevel) {
+		case "A":
+			System.out.printf("A %s with those measurements should eat %f5.2 candy bars per day to maintain the same weight.", (sex.toUpperCase().equals("M") ? "male" : "female"), (result * 1.2));
+			break;
+		case "B":
+			System.out.printf("A %s with those measurements should eat %f5.2 candy bars per day to maintain the same weight.", (sex.toUpperCase().equals("M") ? "male" : "female"), (result * 1.3));
+			break;
+		case "C":
+			System.out.printf("A %s with those measurements should eat %f5.2 candy bars per day to maintain the same weight.", (sex.toUpperCase().equals("M") ? "male" : "female"), (result * 1.4));
+			break;
+		case "D":
+			System.out.printf("A %s with those measurements should eat %f5.2 candy bars per day to maintain the same weight.", (sex.toUpperCase().equals("M") ? "male" : "female"), (result * 1.5));
+			break;
+		}
+	}
+
+}

@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class Lab2b {
+
+	public static void main(String[] args) {
+		// define scanner object to be used for input
+		Scanner keyboard = new Scanner(System.in);
+		int inputNumbers = 0;
+		int largestNumber = 0;
+		
+		System.out.println("Enter an integer (0 ends the input): ");
+		
+		while(true) {
+			inputNumbers = keyboard.nextInt();
+			
+			if(largestNumber < inputNumbers) {
+				largestNumber = inputNumbers;
+			}
+			
+			if(inputNumbers == 0) {
+				break;
+			}
+		}
+		
+		System.out.println(largestNumber);
+		// close the Scanner object
+		keyboard.close();
+	}
+
+}
