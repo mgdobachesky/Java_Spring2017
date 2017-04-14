@@ -1,0 +1,13 @@
+/**
+ * 
+ * @author mike91doby
+ *
+ */
+public class Lab3c {
+
+	public static void main(String[] args) {
+		Movie movie1 = new Movie();
+
+	}
+
+}
