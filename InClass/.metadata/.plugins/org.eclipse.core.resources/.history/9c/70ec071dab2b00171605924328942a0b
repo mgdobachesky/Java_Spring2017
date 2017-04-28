@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class InClass1 {
+
+	public static void main(String[] args) {
+		Scanner keyboard = new Scanner(System.in);
+		
+		Integer[] numbers = new Integer[5];
+		int i = 0;
+		
+		System.out.print("Enter 5 numbers: ");
+		
+		while(keyboard.hasNext()) {
+			
+			
+			numbers[i] = keyboard.nextInt();
+			
+			i++;
+			
+			
+		}
+		
+		System.out(numbers);
+		keyboard.close();
+	}
+
+}
