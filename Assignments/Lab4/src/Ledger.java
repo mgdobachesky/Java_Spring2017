@@ -63,7 +63,7 @@ public class Ledger {
 	
 	public int getCountAbove(double target) {
 		int greaterCount = 0;
-		for(int i = 0; i< this.getMaxSales(); i++) {
+		for(int i = 0; i < this.getMaxSales(); i++) {
 			if(this.sale[i] > target) {
 				greaterCount++;
 			}
