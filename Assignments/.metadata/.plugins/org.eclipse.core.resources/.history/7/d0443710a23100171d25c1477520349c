@@ -1,0 +1,54 @@
+import java.util.*;
+
+public class Lab6 {
+
+	public static void main(String[] args) {
+		String team = "";
+		double revenue = 0;
+		double total = 0;
+		double revenueNext;
+		String teamNext;
+		
+		Scanner keyboard = new Scanner(System.in);
+		
+		Iterator<String> iteratorStadium;
+		Iterator<Double> iteratorRevenue;
+		LinkedList<String> stadiumNames = new LinkedList<String>();
+		LinkedList<Double> gameRevenue = new LinkedList<Double>();
+		
+		System.out.println("Enter the data now.");
+		
+		team = keyboard.next();
+		
+		while(!team.equals("done")) {
+			revenue = keyboard.nextInt();
+			
+			stadiumNames.add(team);
+			gameRevenue.add(revenue);
+			
+			team = keyboard.next();
+		}
+		
+		System.out.println("Enter the name of a stadium to get the total revenue for:");
+		team = keyboard.next();
+		
+		iteratorStadium = stadiumNames.iterator();
+		iteratorRevenue = gameRevenue.iterator();
+		
+		while(iteratorStadium.hasNext()) {
+			while(iteratorRevenue.hasNext()) {
+				revenueNext = iteratorRevenue.next();
+				teamNext = iteratorStadium.next();
+				
+				if(team.equals(teamNext)) {
+					total += revenueNext;
+				}
+			}
+		}
+		
+		System.out.println("The total revenue is " + total);
+		
+		keyboard.close();
+	}
+
+}
