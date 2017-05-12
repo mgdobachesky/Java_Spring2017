@@ -1,0 +1,10 @@
+package doctorLab;
+
+public class doctorLab {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

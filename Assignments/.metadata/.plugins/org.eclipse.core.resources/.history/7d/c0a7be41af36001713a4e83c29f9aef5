@@ -1,0 +1,5 @@
+package payCalculatorLab;
+
+public class RegularPay extends PayCalculator {
+
+}

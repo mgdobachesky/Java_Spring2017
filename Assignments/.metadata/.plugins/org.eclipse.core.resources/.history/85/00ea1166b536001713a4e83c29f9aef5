@@ -1,0 +1,20 @@
+package doctorLab;
+
+public class Billing extends Person{
+	// Define class properties
+	private String patientName;
+	private String doctorName;
+	private double billingAmount;
+	
+	// Define class constructor
+	public Billing(Doctor doctor, Patient patient) {
+		this.patientName = patient.getName();
+		this.doctorName = doctor.getName();
+	}
+	
+	// Define class methods
+	@Override
+	public void writeOutput() {
+		System.out.println("Patient Name: " + this.patientName + ", Doctor Name: " + this.doctorName + ", Billing Amount: " + this.billingAmount);
+	}
+}
