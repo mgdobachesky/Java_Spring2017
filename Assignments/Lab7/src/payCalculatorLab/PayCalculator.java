@@ -1,13 +1,13 @@
 package payCalculatorLab;
 
 public abstract class PayCalculator {
+	// Define class properties
+	private double payRate;
+		
 	// Define constructor
 	public PayCalculator(double payRate) {
 		changeRate(payRate);
 	}
-	
-	// Define class properties
-	private double payRate;
 	
 	// Define class methods
 	public double getPay(double hours) {

@@ -15,8 +15,9 @@ public class Doctor extends Person{
 	}
 	
 	// Define class methods
+	@Override
 	public void writeOutput() {
-		System.out.println("Name: " + this.name + "\nSpecialty: " + this.specialty + "\nOffice Fee: $" + this.officeVisitFee + "\n");
+		System.out.println("Name: " + this.name + "\nOffice Fee: $" + this.officeVisitFee + "\nSpecialty: " + this.specialty + "\n");
 	}
 	
 	public double getOfficeVisitFee() {
