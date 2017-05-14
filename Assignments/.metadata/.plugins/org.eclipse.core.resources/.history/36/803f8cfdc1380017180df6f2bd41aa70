@@ -1,0 +1,40 @@
+package application;
+
+import java.util.*;
+import customExceptions.*;
+
+public class Player {
+	// Class Properties
+	LinkedList<Card> cards = new LinkedList<Card>();
+	
+	// Class Constructor
+	public Player() {}
+	
+	// Getters
+	public LinkedList<Card> getCards() {
+		return cards;
+	}
+	
+	// Class Methods
+	public void addToCards(Card card) throws PlayerException {
+		if(cards.size() <= (DeckOfCards.DECK_SIZE/2)) {
+			cards.addFirst(card);
+		} else {
+			throw new PlayerException();
+		}
+	}
+	
+	public Card playCard() throws PlayerException {
+		if(cards.size() > 0) {
+			return cards.removeLast();
+		} else {
+			throw new PlayerException();
+		}
+	}
+	
+	public void print() {
+		for(Card card : getCards()) {
+			card.print();
+		}
+	}
+}

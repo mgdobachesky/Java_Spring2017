@@ -1,6 +1,7 @@
 package application;
 
 import java.util.*;
+import customExceptions.*;
 
 public class DeckOfCards {
 	
@@ -10,10 +11,10 @@ public class DeckOfCards {
 	private LinkedList<Card> deck = new LinkedList<Card>();
 	
 	// Class Constructor
-	public DeckOfCards() /*throws Exception*/ {
+	public DeckOfCards() throws DeckException {
 		for(String suit : suits) {
 			if(DECK_SIZE % suits.length != 0) {
-				/*throw new Exception();*/
+				throw new DeckException();
 			}
 			
 			for(int rank = 0; rank < (DECK_SIZE/suits.length); rank++) {
@@ -32,6 +33,7 @@ public class DeckOfCards {
 		for(Card card : getDeck()) {
 			card.print();
 		}
+		System.out.println();
 	}
 	
 	public void shuffle() {
@@ -46,29 +48,9 @@ public class DeckOfCards {
 		try {
 			DeckOfCards deck = new DeckOfCards();
 			this.deck = deck.getDeck();
-		} catch(Exception e) {
-			System.out.println("Uneven ratio of suits per deck.");
+		} catch(DeckException e) {
+			System.out.println("Deck configured incorrectly");
 		}
 	}
 	
-	// Main for DeckOfCards testing
-	public static void main(String[] args) {
-		try {
-			// Create a deck and print it out
-			DeckOfCards deck = new DeckOfCards();
-			deck.print();
-			System.out.println();
-			
-			// Shuffle the deck and print it out
-			deck.shuffle();
-			deck.print();
-			System.out.println();
-			
-			// Sort the deck and print it out
-			deck.sort();
-			deck.print();
-		} catch(Exception e) {
-			System.out.println("Uneven ratio of suits per deck.");
-		}
-	}
 }

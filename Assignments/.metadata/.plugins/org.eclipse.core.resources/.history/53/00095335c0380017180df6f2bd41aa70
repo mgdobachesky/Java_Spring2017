@@ -1,0 +1,46 @@
+package application;
+
+import java.util.*;
+import customExceptions.*;
+
+public class WarCardGame {
+	// Class Properties
+	Player player1 = new Player();
+	Player player2 = new Player();
+	
+	// New game constructor
+	public WarCardGame() {
+		try() {
+			DeckOfCards deck = new DeckOfCards();
+			deck.shuffle();
+			handoutCards(deck);
+		} catch(DeckException e) {
+			System.out.println("Deck configured incorrectly");
+		}
+	}
+	
+	// Helper methods
+	private void handoutCards(DeckOfCards deck) {
+		try {
+			for(int i = 0; i < DeckOfCards.DECK_SIZE; i++) {
+				if(player1.getCards().size() <= player2.getCards().size()) {
+					player1.addToCards(deck.getDeck().removeLast());
+				} else {
+					player2.addToCards(deck.getDeck().removeLast());
+				}
+			}
+		} catch(PlayerException e) {
+			System.out.println("Could not evenly distribute cards");
+		}
+	}
+	
+	// Main for WarCardGame testing
+		public static void main(String[] args) {
+			// Create a deck and use it to play war
+			WarCardGame war = new WarCardGame();
+			
+			war.player1.print();
+			System.out.println();
+			war.player2.print();
+		}
+}

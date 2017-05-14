@@ -1,0 +1,132 @@
+package application;
+
+import customExceptions.*;
+
+import java.util.*;
+
+public class WarCardGame {
+	// Class Properties
+	public static final int NUMBER_OF_PLAYERS = 2;
+	private int roundsOfWar = 2;
+	private Player human = new Player("human");
+	private Player computer = new Player("computer");
+	
+	// New game constructor
+	public WarCardGame() {
+		try {
+			DeckOfCards deck = new DeckOfCards();
+			deck.shuffle();
+			handoutCards(deck);
+		} catch(DeckException e) {
+			System.out.println("Deck configured incorrectly");
+		}
+	}
+	
+	// Helper methods
+	private void handoutCards(DeckOfCards deck) {
+		for(int i = 0; i < DeckOfCards.DECK_SIZE; i++) {
+			if(human.getCards().size() <= computer.getCards().size()) {
+				human.addToCards(deck.getDeck().removeLast());
+			} else {
+				computer.addToCards(deck.getDeck().removeLast());
+			}
+		}
+	}
+	
+	private boolean gameOver() {
+		if(!computer.hasCards()) {
+			System.out.println("Human wins game");
+			return true;
+		} else if(!human.hasCards()) {
+			System.out.println("Computer wins game");
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	private void war(LinkedList<Card> warCardPot) {
+		try {
+			// Initialize placeholder for cards
+			Card humansCard = null;
+			Card computersCard = null;
+			
+			for(int i = 0; i < roundsOfWar; i++) {
+				// Play cards and add to pot
+				humansCard = human.playCard();
+				warCardPot.add(humansCard);
+				computersCard = computer.playCard();
+				warCardPot.add(computersCard);
+				
+				// Return if game is over
+				if(gameOver()) {
+					return;
+				}
+			}
+			
+			// Add card to the pile of the player with the most cards
+			// or war if they are equal
+			if(humansCard.getValue() > computersCard.getValue()) {
+				for(Card card : warCardPot) {
+					human.addToCards(card);
+				}
+			} else if(humansCard.getValue() < computersCard.getValue()) {
+				for(Card card : warCardPot) {
+					computer.addToCards(card);
+				}
+			} else if(humansCard.getValue() == computersCard.getValue()) {
+				war(warCardPot);
+			}
+		} catch(PlayerNoCardsException e) {
+			System.out.println("Player has no card to use");
+		}
+	}
+	
+	// Class methods
+	public void playRound() {
+		try{
+			// Get a card from each player
+			Card humansCard = human.playCard();
+			Card computersCard = computer.playCard();
+			
+			// Print out results
+			System.out.println("Human has: " + human.howManyCards() + " cards left");
+			System.out.println("Computer has: " + computer.howManyCards() + " cards left");
+			System.out.println();
+			
+			// Return if game is over
+			if(gameOver()) {
+				return;
+			}
+			
+			// Add card to the pile of the player with the most cards
+			// or war if they are equal
+			if(humansCard.getValue() > computersCard.getValue()) {
+				human.addToCards(humansCard);
+				human.addToCards(computersCard);
+				System.out.println("Human wins round");
+			} else if(humansCard.getValue() < computersCard.getValue()) {
+				computer.addToCards(humansCard);
+				computer.addToCards(computersCard);
+				System.out.println("Computer wins round");
+			} else if(humansCard.getValue() == computersCard.getValue()) {
+				LinkedList<Card> warCardPot = new LinkedList<Card>();
+				warCardPot.add(humansCard);
+				warCardPot.add(computersCard);
+				war(warCardPot);
+			}
+			
+		} catch(PlayerNoCardsException e) {
+			System.out.println("Player has no card to use");
+		}
+	}
+	
+	// Main for WarCardGame testing
+		public static void main(String[] args) {
+			// Create a deck and use it to play war
+			WarCardGame war = new WarCardGame();
+			
+			war.playRound();
+			war.playRound();
+		}
+}

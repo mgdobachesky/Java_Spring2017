@@ -1,0 +1,49 @@
+package application;
+
+import java.util.*;
+import customExceptions.*;
+
+public class Player {
+	// Class Properties
+	private LinkedList<Card> cards = new LinkedList<Card>();
+	
+	// Class Constructor
+	public Player() {}
+	
+	// Getters
+	public LinkedList<Card> getCards() {
+		return cards;
+	}
+	
+	// Class Methods
+	public void addToCards(Card card) throws PlayerDistributionException {
+		if(cards.size() <= (DeckOfCards.DECK_SIZE/WarCardGame.NUMBER_OF_PLAYERS)) {
+			cards.addFirst(card);
+		} else {
+			throw new PlayerDistributionException();
+		}
+	}
+	
+	public Card playCard() throws PlayerNoCardsException {
+		if(cards.size() > 0) {
+			return cards.removeLast();
+		} else {
+			throw new PlayerNoCardsException();
+		}
+	}
+	
+	public boolean hasCards() {
+		if(cards.size() > 0) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+	
+	public void print() {
+		for(Card card : getCards()) {
+			card.print();
+		}
+		System.out.println();
+	}
+}
