@@ -10,10 +10,10 @@ public class DeckOfCards {
 	private LinkedList<Card> deck = new LinkedList<Card>();
 	
 	// Class Constructor
-	public DeckOfCards() /*throws Exception*/ {
+	public DeckOfCards() throws Exception {
 		for(String suit : suits) {
 			if(DECK_SIZE % suits.length != 0) {
-				/*throw new Exception();*/
+				throw new Exception();
 			}
 			
 			for(int rank = 0; rank < (DECK_SIZE/suits.length); rank++) {

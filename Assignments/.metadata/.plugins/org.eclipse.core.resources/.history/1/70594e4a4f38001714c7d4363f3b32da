@@ -1,0 +1,32 @@
+package application;
+
+import java.util.*;
+
+public class WarCardGame {
+	// Class Properties
+	Player player1 = new Player();
+	Player player2 = new Player();
+	
+	// New game constructor
+	public WarCardGame(DeckOfCards deck) throws Exception {
+		Iterator<Card> iterator = deck.getDeck().iterator();
+		while(iterator.hasNext()) {
+			if(player1.getCards().size() <= player2.getCards().size()) {
+				player1.addToCards(deck.getDeck().removeLast());
+			} else {
+				player2.addToCards(deck.getDeck().removeLast());
+			}
+			iterator.next();
+		}
+	}
+	
+	// Main for WarCardGame testing
+		public static void main(String[] args) {
+			try {
+				// Create a deck and print it out
+				WarCardGame war = new WarCardGame();
+				
+				war.player1.print();
+				war.player2.print();
+		}
+}
