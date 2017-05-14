@@ -1,0 +1,50 @@
+package application;
+
+import java.util.*;
+
+public class DeckOfCards {
+	
+	// Class Properties
+	private final static int DECK_SIZE = 52;
+	private final static String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
+	private LinkedList<Card> deck = new LinkedList<Card>();
+	
+	// Class Constructor
+	public DeckOfCards() {
+		for(String suit : suits) {
+			for(int rank = 0; rank < (DECK_SIZE/suits.length); rank++) {
+				deck.add(new Card(rank, suit));
+			}
+		}
+	}
+	
+	// Getters
+	public LinkedList<Card> getDeck() {
+		return deck;
+	}
+	
+	// Methods
+	public void print() {
+		DeckOfCards deck = new DeckOfCards();
+		for(Card card : deck.getDeck()) {
+			card.print();
+		}
+	}
+	
+	public void shuffleDeck() {
+		Iterator<Card> iterator = deck.iterator();
+		while(iterator.hasNext()) {
+			int randomPosition = (int)Math.floor(Math.random() * DECK_SIZE);
+			deck.add(randomPosition, deck.removeLast());
+			iterator.next();
+		}
+	}
+	
+	public static void main(String[] args) {
+		DeckOfCards deck = new DeckOfCards();
+		deck.print();
+		deck.shuffleDeck();
+		System.out.println();
+		deck.print();
+	}
+}

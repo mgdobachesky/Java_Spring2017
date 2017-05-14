@@ -1,0 +1,37 @@
+package application;
+
+public class DeckOfCards {
+	final static String[] suits = {"Hearts", "Diamonds", "Clovers", "Spades"};
+	// Define class properties
+	private final static int DECK_SIZE = 52;
+	
+	private Card[] deck = new Card[DECK_SIZE];
+	
+	// Define class constructor
+	public DeckOfCards() {
+		int k = 0;
+		for(String suit : suits) {
+			for(int i = 0; i < (DECK_SIZE/suits.length); i++, k++) {
+				deck[k] = new Card(i, suit);
+			}
+		}
+	}
+	
+	// Getters
+	public Card[] getDeck() {
+		return deck;
+	}
+	
+	public void print() {
+		for(Card card : deck) {
+			card.print();
+		}
+	}
+	
+	public static void main(String[] args) {
+		DeckOfCards deck = new DeckOfCards();
+		for(Card card : deck.getDeck()) {
+			card.print();
+		}
+	}
+}
