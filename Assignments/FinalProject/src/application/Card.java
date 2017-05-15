@@ -26,7 +26,7 @@ public class Card {
 			this.rank = "Ace";
 			break;
 		default:
-			this.rank = Integer.toString(value + 1);
+			this.rank = Integer.toString(value + 2);
 		}
 	}
 	

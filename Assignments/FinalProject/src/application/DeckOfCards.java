@@ -52,5 +52,4 @@ public class DeckOfCards {
 			System.out.println("Deck configured incorrectly");
 		}
 	}
-	
 }

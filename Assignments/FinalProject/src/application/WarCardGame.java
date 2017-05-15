@@ -10,6 +10,8 @@ public class WarCardGame {
 	private int roundsOfWar = 2;
 	private Player human = new Player("Human");
 	private Player computer = new Player("Computer");
+	private String humanCardImg = "";
+	private String computerCardImg ="";
 	
 	// New game constructor
 	public WarCardGame() {
@@ -20,6 +22,24 @@ public class WarCardGame {
 		} catch(DeckException e) {
 			System.out.println("Deck configured incorrectly");
 		}
+	}
+	
+	// Getters
+	public String getHumanCardImg() {
+		return this.humanCardImg;
+	}
+	
+	public String getComputerCardImg() {
+		return this.computerCardImg;
+	}
+	
+	// Setters
+	private void setHumanCardImg(String rank, String suit) {
+		this.humanCardImg = rank + "_of_" + suit + ".png";
+	}
+	
+	private void setComputerCardImg(String rank, String suit) {
+		this.computerCardImg = rank + "_of_" + suit + ".png";
 	}
 	
 	// Helper methods
@@ -62,6 +82,10 @@ public class WarCardGame {
 			
 			// Display card names
 			printCards(humansCard, computersCard);
+			
+			// Set card image
+			setHumanCardImg(humansCard.getRank(), humansCard.getSuit());
+			setComputerCardImg(computersCard.getRank(), computersCard.getSuit());
 			
 			// Add card to the pile of the player with the most cards
 			// or war if they are equal
@@ -120,6 +144,10 @@ public class WarCardGame {
 				// Display card names
 				printCards(humansCard, computersCard);
 				
+				// Set card image
+				setHumanCardImg(humansCard.getRank(), humansCard.getSuit());
+				setComputerCardImg(computersCard.getRank(), computersCard.getSuit());
+				
 				// Add card to the pile of the player with the most cards
 				// or war if they are equal
 				if(humansCard.getValue() > computersCard.getValue()) {
@@ -167,16 +195,7 @@ public class WarCardGame {
 	public void printStats() {
 		// Print out results
 		System.out.println(human.getPlayerName() + " has " + human.howManyCards() + " cards");
-		System.out.println(computer.getPlayerName() + " has " + computer.howManyCards() + " cards");
+		System.out.println(computer.getPlayerName() + " has " + computer.howManyCards() + " cards\n");
 	}
 	
-	// Main for WarCardGame testing
-	public static void main(String[] args) {
-		// Create a deck and use it to play war
-		WarCardGame war = new WarCardGame();
-		
-		while(war.playRound()) {
-			System.out.println();
-		}
-	}
 }
