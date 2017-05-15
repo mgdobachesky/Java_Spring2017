@@ -8,13 +8,19 @@ public class WarCardGame {
 	// Class Properties
 	public static final int NUMBER_OF_PLAYERS = 2;
 	private int roundsOfWar = 2;
-	private Player human = new Player("Human");
-	private Player computer = new Player("Computer");
+	private Player human;
+	private Player computer;
 	private String humanCardImg = "";
 	private String computerCardImg ="";
+	private String gameWinner = "";
+	private String roundWinner = "";
+	private String numHumanCards = "";
+	private String numComputerCards = "";
 	
 	// New game constructor
-	public WarCardGame() {
+	public WarCardGame(Player human, Player computer) {
+		this.human = human;
+		this.computer = computer;
 		try {
 			DeckOfCards deck = new DeckOfCards();
 			deck.shuffle();
@@ -33,6 +39,29 @@ public class WarCardGame {
 		return this.computerCardImg;
 	}
 	
+	public String getGameWinner() {
+		return this.gameWinner;
+	}
+	
+	public String getRoundWinner() {
+		return this.roundWinner;
+	}
+	
+	public String getNumHumanCards() {
+		return this.numHumanCards;
+	}
+	
+	public String getNumComputerCards() {
+		return this.numComputerCards;
+	}
+	
+	public Player getHumanPlayer() {
+		return this.human;
+	}
+	
+	public Player getComputerPlayer() {
+		return this.computer;
+	}
 	// Setters
 	private void setHumanCardImg(String rank, String suit) {
 		this.humanCardImg = rank + "_of_" + suit + ".png";
@@ -40,6 +69,22 @@ public class WarCardGame {
 	
 	private void setComputerCardImg(String rank, String suit) {
 		this.computerCardImg = rank + "_of_" + suit + ".png";
+	}
+	
+	private void setGameWinner(String gameWinner) {
+		this.gameWinner = gameWinner;
+	}
+	
+	private void setRoundWinner(String roundWinner) {
+		this.roundWinner = roundWinner;
+	}
+	
+	private void setNumHumanCards(String numCards) {
+		this.numHumanCards = numCards;
+	}
+	
+	private void setNumComputerCards(String numCards) {
+		this.numComputerCards = numCards;
 	}
 	
 	// Helper methods
@@ -56,9 +101,11 @@ public class WarCardGame {
 	private boolean gameOver() {
 		if(!computer.hasCards()) {
 			System.out.println(human.getPlayerName() + " wins game");
+			setGameWinner(human.getPlayerName() + " wins game");
 			return true;
 		} else if(!human.hasCards()) {
 			System.out.println(computer.getPlayerName() + " wins game");
+			setGameWinner(computer.getPlayerName() + " wins game");
 			return true;
 		} else {
 			return false;
@@ -154,10 +201,12 @@ public class WarCardGame {
 					human.addToCards(humansCard);
 					human.addToCards(computersCard);
 					System.out.println(human.getPlayerName() + " wins round");
+					setRoundWinner(human.getPlayerName() + " wins round");
 				} else if(humansCard.getValue() < computersCard.getValue()) {
 					computer.addToCards(humansCard);
 					computer.addToCards(computersCard);
 					System.out.println(computer.getPlayerName() + " wins round");
+					setRoundWinner(computer.getPlayerName() + " wins round");
 				} else if(humansCard.getValue() == computersCard.getValue()) {
 					System.out.println("War!");
 					LinkedList<Card> warCardPot = new LinkedList<Card>();
@@ -195,7 +244,9 @@ public class WarCardGame {
 	public void printStats() {
 		// Print out results
 		System.out.println(human.getPlayerName() + " has " + human.howManyCards() + " cards");
+		setNumHumanCards(human.howManyCards() + " cards");
 		System.out.println(computer.getPlayerName() + " has " + computer.howManyCards() + " cards\n");
+		setNumComputerCards(computer.howManyCards() + " cards");
 	}
 	
 }
