@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Fri May 19 11:22:19 EDT 2017
+2.base=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_
+5.file=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+5.set=ANDROID_RESOURCE
+3.base=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92151d78eb5722d90bbcd6e474f0b5e93076b48c
+2.set=ANDROID_RESOURCE
+4.base=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7218c6421d75c9704f4e1af5dff3e09bdf01dc73/classes.dex
+5.base=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+1.set=ANDROID_RESOURCE
+2.file=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_/resources.arsc
+0.base=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7218c6421d75c9704f4e1af5dff3e09bdf01dc73
+3.file=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_92151d78eb5722d90bbcd6e474f0b5e93076b48c/classes.dex
+3.set=DEX
+1.base=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_
+4.file=/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+0.set=DEX

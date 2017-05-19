@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 40,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 43,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/src/main/res/values/dimen.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 140,
+                    "endColumn": 54,
+                    "endOffset": 190
+                },
+                "from": {
+                    "file": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 54,
+                        "endOffset": 268
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 195,
+                    "endColumn": 80,
+                    "endOffset": 271
+                },
+                "from": {
+                    "file": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 80,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 276,
+                    "endColumn": 75,
+                    "endOffset": 347
+                },
+                "from": {
+                    "file": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 75,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 352,
+                    "endColumn": 38,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "/home/michael/Downloads/SamplePrograms/basicAddingMachine2WithResourcesAndListener/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 274,
+                        "endColumn": 38,
+                        "endOffset": 308
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,5 @@
+include ':app'
+include ':basicAddingMachine'
+include ':basicAddingMachine2'
+include ':basicAddingMachine2WithResources'
+include ':basicAddingMachine2WithResourcesAndListener'
