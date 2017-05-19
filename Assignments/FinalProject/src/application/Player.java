@@ -4,11 +4,12 @@ import java.util.*;
 import customExceptions.*;
 
 public class Player {
-	// Class Properties
+	// Instance properties
 	private LinkedList<Card> cards = new LinkedList<Card>();
 	private String playerName;
+	private String pathToLastCardImage;
 	
-	// Class Constructor
+	// Constructors
 	public Player(String playerName) {
 		this.playerName = playerName;
 	}
@@ -18,15 +19,20 @@ public class Player {
 		return cards;
 	}
 	
+	public String getPathToLastCardImage() {
+		return pathToLastCardImage;
+	}
+	
 	public String getPlayerName() {
 		return playerName;
 	}
 	
-	public int howManyCards() {
-		return cards.size();
+	// Setters
+	private void setPathToLastCardImage(Card card) {
+		pathToLastCardImage = card.getRank() + "_of_" + card.getSuit() + ".png";
 	}
 	
-	// Class Methods
+	// Instance Methods
 	public void addToCards(Card card) {
 		int randomPosition = (int)Math.floor(Math.random() * cards.size());
 		cards.add(randomPosition, card);
@@ -34,10 +40,16 @@ public class Player {
 	
 	public Card playCard() throws PlayerNoCardsException {
 		if(cards.size() > 0) {
-			return cards.removeLast();
+			Card card = cards.removeLast();
+			setPathToLastCardImage(card);
+			return card;
 		} else {
 			throw new PlayerNoCardsException();
 		}
+	}
+	
+	public int howManyCards() {
+		return cards.size();
 	}
 	
 	public boolean hasCards() {
@@ -46,12 +58,5 @@ public class Player {
 		} else {
 			return false;
 		}
-	}
-	
-	public void print() {
-		for(Card card : getCards()) {
-			card.print();
-		}
-		System.out.println();
 	}
 }

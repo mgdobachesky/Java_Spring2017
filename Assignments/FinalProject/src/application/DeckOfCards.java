@@ -5,12 +5,14 @@ import customExceptions.*;
 
 public class DeckOfCards {
 	
-	// Class Properties
+	// Class properties
 	public final static int DECK_SIZE = 52;
 	private final static String[] suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
+	
+	// Instance properties
 	private LinkedList<Card> deck = new LinkedList<Card>();
 	
-	// Class Constructor
+	// Constructors
 	public DeckOfCards() throws DeckException {
 		for(String suit : suits) {
 			if(DECK_SIZE % suits.length != 0) {
@@ -28,14 +30,7 @@ public class DeckOfCards {
 		return deck;
 	}
 	
-	// Methods
-	public void print() {
-		for(Card card : getDeck()) {
-			card.print();
-		}
-		System.out.println();
-	}
-	
+	// Instance Methods
 	public void shuffle() {
 		for(int i = 0; i < DECK_SIZE; i++) {
 			int randomPosition = (int)Math.floor(Math.random() * DECK_SIZE);

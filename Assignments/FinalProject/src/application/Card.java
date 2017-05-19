@@ -42,9 +42,4 @@ public class Card {
 	public String getSuit() {
 		return this.suit;
 	}
-	
-	// Methods
-	public void print() {
-		System.out.println(getRank() + " of " + getSuit());
-	}
 }
