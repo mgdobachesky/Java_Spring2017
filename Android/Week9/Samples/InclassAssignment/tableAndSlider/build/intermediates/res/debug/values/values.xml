@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/bganek/Dropbox/NEIT/Java%202014/Class/Week8/InClassAndroid%20-%20controls/InclassAssignment/tableAndSlider/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="Calculate">Calculate</string>
+    <string name="PlusString">+</string>
+    <string name="app_name">TableAndSlider</string>
+    <string name="hello">Hello World, TableAndSliderActivity!</string>
+</resources>

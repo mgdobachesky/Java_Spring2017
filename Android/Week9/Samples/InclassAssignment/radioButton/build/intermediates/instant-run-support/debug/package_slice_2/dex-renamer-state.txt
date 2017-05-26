@@ -1,0 +1,4 @@
+#Wed May 17 17:01:35 EDT 2017
+base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\radioButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2
+renamed.0=classes.dex
+file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\radioButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_2\\classes.dex

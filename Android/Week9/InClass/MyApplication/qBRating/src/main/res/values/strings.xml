@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, QBRatingActivity!</string>
+    <string name="app_name">QBRating</string>
+    <string name="Attempts">Attempts</string>
+    <string name="Completions">Completions</string>
+    <string name="Interceptions">Interceptions</string>
+    <string name="Touchdowns">Touchdowns</string>
+    <string name="GetRating">GetRating</string>
+    <string name="Rating">Rating</string>
+    <string name="Yards">Yards</string>
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="icecream_flavors">
+        <item>Chocolate</item>
+        <item>Vanilla</item>
+        <item>Strawberry</item>
+        <item>Rocky Road</item>
+    </string-array>
+    <string name="flavorDefault">Select A Flavor</string>
+</resources>

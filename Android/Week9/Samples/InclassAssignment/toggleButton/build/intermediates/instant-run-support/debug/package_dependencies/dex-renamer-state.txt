@@ -1,0 +1,4 @@
+#Wed May 17 16:34:50 EDT 2017
+base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\toggleButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_df7fdadc6c1b09289ef87ade65db30f127b6b123
+renamed.0=classes.dex
+file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\toggleButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-v4-18.0.0_df7fdadc6c1b09289ef87ade65db30f127b6b123\\classes.dex

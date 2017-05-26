@@ -1,0 +1,2 @@
+C:\Users\bganek\Dropbox\NEIT\Java 2014\Class\Week8\InClassAndroid - controls\InclassAssignment\spinner\build\intermediates\classes\debug
+C:\Users\bganek\Dropbox\NEIT\Java 2014\Class\Week8\InClassAndroid - controls\InclassAssignment\spinner\build\intermediates\pre-dexed\debug\support-v4-18.0.0-df7fdadc6c1b09289ef87ade65db30f127b6b123.jar

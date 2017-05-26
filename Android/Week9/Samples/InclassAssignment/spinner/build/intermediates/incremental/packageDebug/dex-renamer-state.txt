@@ -1,0 +1,7 @@
+#Wed May 17 16:33:40 EDT 2017
+base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\spinner\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f682e3ed379e300c6dc9a6d40823234f3fd99347
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\spinner\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_60e6ccff258f87e1ee111c1d391eafc48639b0d2\\classes.dex
+base.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\spinner\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_60e6ccff258f87e1ee111c1d391eafc48639b0d2
+file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\spinner\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_f682e3ed379e300c6dc9a6d40823234f3fd99347\\classes.dex

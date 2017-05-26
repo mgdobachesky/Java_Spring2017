@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "C:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 132,
+                        "endColumn": 52,
+                        "endOffset": 180
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 71,
+                    "endOffset": 175
+                },
+                "from": {
+                    "file": "C:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 71,
+                        "endOffset": 126
+                    }
+                }
+            }
+        ]
+    }
+]

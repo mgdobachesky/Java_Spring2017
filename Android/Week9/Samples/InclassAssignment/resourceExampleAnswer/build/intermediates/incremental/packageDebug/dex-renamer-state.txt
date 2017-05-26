@@ -1,0 +1,7 @@
+#Thu May 18 16:19:19 EDT 2017
+base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4271a12ec16e3941ee034519c01b1c8d4f154b55
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5a8026b00c533b176e68766beed9046715150818\\classes.dex
+base.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5a8026b00c533b176e68766beed9046715150818
+file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\resourceExampleAnswer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4271a12ec16e3941ee034519c01b1c8d4f154b55\\classes.dex
