@@ -94,11 +94,11 @@ public class Xylophone extends Application {
 
         // Base1
         Cube base1Cube = new Cube(1.0, new Color(0.2, 0.12, 0.1, 1.0), 1.0);
-       // base1Cube.setTranslateX(xStart + 135);
-       // base1Cube.setTranslateZ(yPos+20.0);
-       // base1Cube.setTranslateY(11.0);
-       base1Cube.setScaleX(barWidth*11.5);
-       base1Cube.setScaleZ(10.0);
+        base1Cube.setTranslateX(xStart + 135);
+        base1Cube.setTranslateZ(yPos+20.0);
+        base1Cube.setTranslateY(11.0);
+        base1Cube.setScaleX(barWidth*11.5);
+        base1Cube.setScaleZ(10.0);
         base1Cube.setScaleY(barDepth*2.0);
 
         // Base2
@@ -208,8 +208,8 @@ public class Xylophone extends Application {
         rectangleGroup.setScaleZ(2.5);
         cam.getChildren().add(rectangleGroup);
 
-        double halfSceneWidth = 375;  // scene.getWidth()/2.0;
-        double halfSceneHeight = 275;  // scene.getHeight()/2.0;
+        double halfSceneWidth = scene.getWidth()/2.0;
+        double halfSceneHeight = scene.getHeight()/2.0;
         cam.p.setX(halfSceneWidth);
         cam.ip.setX(-halfSceneWidth);
         cam.p.setY(halfSceneHeight);
@@ -298,7 +298,7 @@ public class Xylophone extends Application {
     //=========================================================================
     public void frameCam(final Stage stage, final Scene scene) {
         setCamOffset(camOffset, scene);
-        // cam.resetTSP();
+        //cam.resetTSP();
         setCamPivot(cam);
         setCamTranslate(cam);
         setCamScale(cam, scene);
@@ -452,7 +452,7 @@ public class Xylophone extends Application {
                     .rotationAxis(Rotate.X_AXIS)
                     .rotate(90)
                     .build(),
-                RectangleBuilder.create() // top face
+                RectangleBuilder.create() // front face
                     .width(size).height(size)
                     .fill(color)
                     .translateX(-0.5*size)
