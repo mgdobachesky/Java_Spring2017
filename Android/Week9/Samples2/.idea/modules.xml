@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JavaWeek9Samples2.iml" filepath="$PROJECT_DIR$/JavaWeek9Samples2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instanceStateDemo/instanceStateDemo.iml" filepath="$PROJECT_DIR$/instanceStateDemo/instanceStateDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sharedPreferencesDemo/sharedPreferencesDemo.iml" filepath="$PROJECT_DIR$/sharedPreferencesDemo/sharedPreferencesDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toastDemo/toastDemo.iml" filepath="$PROJECT_DIR$/toastDemo/toastDemo.iml" />
+    </modules>
+  </component>
+</project>

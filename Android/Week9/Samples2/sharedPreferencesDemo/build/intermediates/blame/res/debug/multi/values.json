@@ -1,0 +1,121 @@
+[
+    {
+        "outputFile": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 40,
+                    "endOffset": 91
+                },
+                "from": {
+                    "file": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/src/main/res/values/color.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 40,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 96,
+                    "endColumn": 43,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/src/main/res/values/dimen.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 43,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 140,
+                    "endColumn": 57,
+                    "endOffset": 193
+                },
+                "from": {
+                    "file": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 57,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 198,
+                    "endColumn": 60,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 60,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 75,
+                    "endOffset": 330
+                },
+                "from": {
+                    "file": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 59,
+                        "endColumn": 75,
+                        "endOffset": 130
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 335,
+                    "endColumn": 38,
+                    "endOffset": 369
+                },
+                "from": {
+                    "file": "/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endColumn": 38,
+                        "endOffset": 289
+                    }
+                }
+            }
+        ]
+    }
+]

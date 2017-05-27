@@ -1,0 +1,21 @@
+#Internal package file, do not edit.
+#Sat May 27 11:28:00 EDT 2017
+2.base=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0de64e94cbb82cd7ecb8509874e740d3ab4e0f7
+5.file=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_/resources.arsc
+5.set=ANDROID_RESOURCE
+3.base=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_
+2.set=DEX
+4.base=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_
+count=6
+0.file=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_41fc29571ef2fbf1188a823477ad7d0d3abb99d1/classes.dex
+5.base=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_
+4.set=ANDROID_RESOURCE
+1.file=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_/res/layout/main.xml
+1.set=ANDROID_RESOURCE
+2.file=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f0de64e94cbb82cd7ecb8509874e740d3ab4e0f7/classes.dex
+0.base=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_41fc29571ef2fbf1188a823477ad7d0d3abb99d1
+3.file=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_/AndroidManifest.xml
+3.set=ANDROID_RESOURCE
+1.base=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_
+4.file=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/res/resources-debug.ap_/res/drawable-xhdpi-v4/ic_launcher.png
+0.set=DEX
