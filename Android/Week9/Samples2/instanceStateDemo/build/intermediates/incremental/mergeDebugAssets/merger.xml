@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/michael/AndroidStudioProjects/JavaWeek9Samples2/instanceStateDemo/src/main/assets"/><source path="/home/michael/AndroidStudioProjects/JavaWeek9Samples2/instanceStateDemo/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/home/michael/AndroidStudioProjects/JavaWeek9Samples2/instanceStateDemo/src/debug/assets"/></dataSet></merger>

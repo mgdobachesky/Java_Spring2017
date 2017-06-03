@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="orange">#FF7F00</color>
-    <dimen name="buttonWidth">400px</dimen>
-    <string name="AddCaption">Add Two Numbers</string>
-    <string name="app_name">BasicAddingMachine2WithResourcesAndListener</string>
-    <string name="hello">Hello World, BasicAddingMachine2Activity!</string>
-    <string name="plusSign">+</string>
-</resources>

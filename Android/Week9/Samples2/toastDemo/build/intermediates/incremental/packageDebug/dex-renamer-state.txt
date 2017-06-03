@@ -1,7 +1,0 @@
-#Sat May 27 11:44:09 EDT 2017
-base.0=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/toastDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cb7a5009ab14ae4a26c7d65b144d515ace460fb7
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/toastDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_537c2de70d3634ecb4d1c23727919e3c425b7a9a/classes.dex
-base.1=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/toastDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_537c2de70d3634ecb4d1c23727919e3c425b7a9a
-file.0=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/toastDemo/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_cb7a5009ab14ae4a26c7d65b144d515ace460fb7/classes.dex

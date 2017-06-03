@@ -1,8 +1,0 @@
-INDEX VERSION 1.130+C:\Users\DobacheskyMichaelG\Desktop\Java_Spring2017\InClass\.metadata\.plugins\org.eclipse.jdt.core
-3403400796.index
-3132175059.index
-1406310374.index
-792044191.index
-617981808.index
-3076146264.index
-3451257413.index

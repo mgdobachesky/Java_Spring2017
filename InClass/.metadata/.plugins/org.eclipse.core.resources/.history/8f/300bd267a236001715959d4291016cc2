@@ -1,4 +1,0 @@
-
-public interface Actor {
-	public default void act(){};
-}

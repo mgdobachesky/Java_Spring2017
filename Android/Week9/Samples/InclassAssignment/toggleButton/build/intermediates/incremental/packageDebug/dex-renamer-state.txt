@@ -1,7 +1,0 @@
-#Thu May 18 16:17:37 EDT 2017
-base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\toggleButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_53623bc5ecb0e9f53cfc84e17f33353c5554d9fa
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\toggleButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5646f9694d05a1e3272f44ff68d0462b08b110b9\\classes.dex
-base.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\toggleButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_5646f9694d05a1e3272f44ff68d0462b08b110b9
-file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\toggleButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_53623bc5ecb0e9f53cfc84e17f33353c5554d9fa\\classes.dex

@@ -1,6 +1,0 @@
-include ':app'
-include ':resourceExampleAnswer'
-include ':radioButton'
-include ':spinner'
-include ':tableAndSlider'
-include ':toggleButton'

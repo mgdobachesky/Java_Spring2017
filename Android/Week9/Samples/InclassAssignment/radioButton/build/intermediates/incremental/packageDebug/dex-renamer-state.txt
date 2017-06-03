@@ -1,7 +1,0 @@
-#Wed May 17 17:01:35 EDT 2017
-base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\radioButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3f5df3be7903bb99ad3906bb4c83bfae52d4576c
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\radioButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ade81ed0272c20ac456872cd86bd90474acecfe7\\classes.dex
-base.1=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\radioButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ade81ed0272c20ac456872cd86bd90474acecfe7
-file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\radioButton\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_3f5df3be7903bb99ad3906bb4c83bfae52d4576c\\classes.dex

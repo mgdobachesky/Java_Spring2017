@@ -1,7 +1,0 @@
-#Thu May 25 18:39:22 EDT 2017
-base.0=/home/michael/AndroidStudioProjects/ResourceExampleAndroid/MyApplication/qBRating/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2108ac0767d92579b99a607d012b85fe3c7649d0
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/home/michael/AndroidStudioProjects/ResourceExampleAndroid/MyApplication/qBRating/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_602e6c13a2c3afbad86dba0e04b5d95c56e8fb24/classes.dex
-base.1=/home/michael/AndroidStudioProjects/ResourceExampleAndroid/MyApplication/qBRating/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_602e6c13a2c3afbad86dba0e04b5d95c56e8fb24
-file.0=/home/michael/AndroidStudioProjects/ResourceExampleAndroid/MyApplication/qBRating/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2108ac0767d92579b99a607d012b85fe3c7649d0/classes.dex

@@ -1,4 +1,0 @@
-#Wed May 17 16:33:39 EDT 2017
-base.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\spinner\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5
-renamed.0=classes.dex
-file.0=C\:\\Users\\bganek\\Dropbox\\NEIT\\Java 2014\\Class\\Week8\\InClassAndroid - controls\\InclassAssignment\\spinner\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_5\\classes.dex

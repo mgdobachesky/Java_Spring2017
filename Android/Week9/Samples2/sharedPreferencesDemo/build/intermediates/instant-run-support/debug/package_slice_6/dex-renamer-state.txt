@@ -1,4 +1,0 @@
-#Sat May 27 11:28:00 EDT 2017
-base.0=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6
-renamed.0=classes.dex
-file.0=/home/michael/AndroidStudioProjects/JavaWeek9Samples2/sharedPreferencesDemo/build/intermediates/transforms/dex/debug/folders/1000/5/slice_6/classes.dex
