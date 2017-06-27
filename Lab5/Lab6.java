@@ -25,7 +25,7 @@ public class Lab6 {
 		// Output instructions to the user
 		System.out.println("Enter the data now.");
 		
-		// Get the team from the user input
+		// Get the team from user input
 		team = keyboard.next();
 		
 		// If the input does not equal "done" add input to linked lists
